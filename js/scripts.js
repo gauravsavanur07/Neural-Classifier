@@ -33,7 +33,7 @@ function execute(input){
         output = 'Kim Kardashian'
         certainity = Math.floor(results.kardashian * 100)
     }
-    return "I'm " + certainty + "% sure that tweet was written by " + output;
+    return "I'm " + certainity + "% sure that tweet was written by " + output;
 }
 train(trainingData);
 console.log(execute("Paste Your Tweet Here "));
