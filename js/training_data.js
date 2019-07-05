@@ -63,4 +63,4 @@ const trainingData = [
         input: "So true, thank you!",
         output: { trump: 1 }
     }
-]
+]e
